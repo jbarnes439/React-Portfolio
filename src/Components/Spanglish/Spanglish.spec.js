@@ -1,12 +1,12 @@
 import React from 'react';
 import { configure, shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import OtakuRisuto from './OtakuRisuto';
+import Spanglish from './Spanglish';
 
 configure({ adapter: new Adapter()})
 
-describe('<OtakuRisuto />', () => {
+describe('<Spanglish />', () => {
   it('should render without crashing', () => {
-    shallow(<OtakuRisuto />);    
+    shallow(<Spanglish />);    
   })
 })

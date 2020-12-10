@@ -1,19 +1,20 @@
 import React from 'react';
 import Screenshot from '../../images/otaku-views.png';
-import './OtakuRisuto.css';
+import './Spanglish.css';
 
-function OtakuRisuto() {
+function Spanglish() {
     
     return (
         <div className='project-card'>
             <a href='https://Otaku-risuto.vercel.app/'><h4>Otaku Risuto</h4></a>
-            <img src={Screenshot} alt='screenshot of the Otaku Risuto app.'/>
+            <img src={Screenshot} alt='screenshot of the Spanglish app.'/>
             <p>
-                Otaku Risuto is an app that allows a user to keep track of their favorite
-                anime titles. Users are able search for and create lists of anime, complete with 
-                images and descriptions. Edit and delete lists at will, as well as commenting on and rating 
-                other user's lists. Struggling to decide what to watch? Allow us to pick from your list
-                for you with our anime roulette button.
+                Always wanted to hablas espanol? Well, this app will have you speaking
+                spanglish in no time! I haven't had the time to make it a Rosetta Stone
+                yet, but I did learn a bit about algorithms in the process. In case you were
+                wondering, the F in algorithms stands for fun! Jokes aside, I did learn a lot
+                making this particular app. Most notably, algorithms are not easy to write, but
+                neither are they impossible to figure out.
             </p>
             <h5>Technologies:</h5>
             <section className='tech'>                 
@@ -37,4 +38,4 @@ function OtakuRisuto() {
     )
 }
 
-export default OtakuRisuto;
+export default Spanglish;
