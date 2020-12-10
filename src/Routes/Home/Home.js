@@ -1,13 +1,12 @@
 import React from 'react';
-import Header from '../../Components/Header/Header';
-import Footer from '../../Components/Footer/Footer';
+import ProjectContainer from '../../Components/ProjectContainer/ProjectContainer';
+
 
 function Home() {
     return (
-        <div>
+        <div>            
             <h1>Home</h1>
-            <Header />
-            <Footer />
+            <ProjectContainer />            
         </div>
     )
 }

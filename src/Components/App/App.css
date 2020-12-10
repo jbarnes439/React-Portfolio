@@ -1,0 +1,12 @@
+.App {
+    /* background-color: #5c2c0c; */
+    /* Image properties */
+    background-image: url(../../images/grand-canyon-sunset.jpg);
+    min-height: 627px;
+    width:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}

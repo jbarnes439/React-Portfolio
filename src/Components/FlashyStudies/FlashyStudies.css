@@ -1,0 +1,32 @@
+.project-card {    
+    background-color: #fff5ea;
+    width: 60%;
+    margin: 16px auto;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 16px;
+    text-align: center;
+}
+
+.project-card a {
+    color: black;
+}
+
+.project-card a:visited {
+    color:#8499B1;
+}
+
+img {
+    width: 100%;
+}
+
+.tech {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tech-image {
+    height: 50px;
+    width: 50px;
+}
