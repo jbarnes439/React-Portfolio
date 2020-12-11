@@ -30,3 +30,15 @@ img {
     height: 50px;
     width: 50px;
 }
+
+.tech-image-express {
+    height: 45px;
+    width: 125px;
+}
+
+@media only screen and (min-width: 450px) {
+    .project-card h4 {
+        font-size: 25px;
+        margin: 10px;
+    }
+}

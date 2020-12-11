@@ -1,5 +1,6 @@
 import React from 'react';
 import Screenshot from '../../images/otaku-views.png';
+import expressIcon from '../../images/express-icon.png';
 import './OtakuRisuto.css';
 
 function OtakuRisuto() {
@@ -26,6 +27,11 @@ function OtakuRisuto() {
                     className='tech-image' 
                     src="https://img.icons8.com/color/48/000000/nodejs.png" 
                     alt='node-js icon'
+                />
+                <img 
+                    className='tech-image-express'
+                    src={expressIcon}
+                    alt='ExpressJS icon'
                 />
                 <img 
                     className='tech-image' 
