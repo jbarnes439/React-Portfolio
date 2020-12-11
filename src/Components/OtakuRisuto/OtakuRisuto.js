@@ -1,7 +1,7 @@
 import React from 'react';
 import Screenshot from '../../images/otaku-views.png';
 import expressIcon from '../../images/express-icon.png';
-import './OtakuRisuto.css';
+
 
 function OtakuRisuto() {
     
@@ -39,6 +39,9 @@ function OtakuRisuto() {
                     alt='react icon'
                 />
             </section>
+            <a href='https://github.com/Cap3-Nate-Chad-Brandon-Michael-Josh/OtakuRisuto.git'>
+                <button className='button-link'>Code</button>
+            </a>
         </div>
     )
 }

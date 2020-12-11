@@ -1,12 +1,68 @@
-.App {
-    /* background-color: #5c2c0c; */
-    /* Image properties */
+.App {   
     background-image: url(../../images/grand-canyon-sunset.jpg);
     min-height: 627px;
     width:100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover;    
+}
+
+.project-card {    
+    background-color: #fff5ea;
+    width: 60%;
+    margin: 16px auto;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px rgba(204, 204, 204, 0.24);
+    padding: 16px;
+    text-align: center;
+}
+
+.project-card a {
+    color: black;
+    text-decoration: none;
+}
+
+.project-card a:visited {
+    color:#8499B1;
+}
+
+img {
+    width: 100%;
+}
+
+.tech {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tech-image {
+    height: 10vh;
+    width: 10vw;
+}
+
+.tech-image-express {
+    padding-top: 5px;
+    height: 7vh;
+    width: 18vw;
+}
+
+.button-link {
+    color: black;
+    transition: all 0.4s ease-in-out;
+    font-size: 25px;
+    border-radius: 8px;
+    background-color: #fff5ea;
+    cursor: pointer;
+    height: 35px;
+}
+
+.project-card h4 {
+    font-size: 25px;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 450px) {
+        
 }

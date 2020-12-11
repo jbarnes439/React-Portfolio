@@ -1,16 +1,106 @@
-.Header {
-    /* Text properties */
+.header {    
     color: white;
-    display:flex;
-    justify-content: space-between;
+    position: relative;    
 }
 
-h2 {
-  font-size:50px;
+h1 {  
   padding: 10px 10px 10px 10px;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  color: white;
+}
 
-@media only screen and (min-width: 450px) {
-    
-  }
+.title {
+  font-size: 1.5rem;
+  margin: .5rem;
+}
+
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: white;
+  padding: 1.45rem 1rem 1rem 1rem;
+  display: block;
+  font-size: 25px;
+}
+
+.navbar-links li a:hover {
+  color: #f1ddf7;
+  transition: all 0.4s ease-in-out;
+}
+
+.navbar-links li a:visited { 
+  color: #8499B1;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 45px;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px; 
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;    
+}
+
+@media only screen and (max-width: 600px) {
+    /* Extra padding to the right to prevent overlap
+   of absolute positioned hamburger menu */
+  
+    h1 {
+      padding: 10px 50px 10px 10px;
+    }
+
+    .toggle-button {
+      display: flex;
+    }
+
+    .navbar-links {
+      display: none;
+      width: 100%;
+    }
+
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .navbar-links ul {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .navbar-links li {
+      text-align: center;
+      width: 100%;
+    }
+
+    .navbar-links li a {
+      padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+      display:flex;
+    }
+}

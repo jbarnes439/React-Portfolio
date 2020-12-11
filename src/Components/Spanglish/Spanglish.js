@@ -1,7 +1,6 @@
 import React from 'react';
 import Screenshot from '../../images/spanglish-views.png';
 import expressIcon from '../../images/express-icon.png';
-import './Spanglish.css';
 
 function Spanglish() {
     
@@ -41,6 +40,9 @@ function Spanglish() {
                     alt='react icon'
                 />
             </section>
+            <a href='https://github.com/jbarnes439/spaced-repetition.git'>
+                <button className='button-link'>Code</button>
+            </a>
         </div>
     )
 }

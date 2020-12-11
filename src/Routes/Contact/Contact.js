@@ -1,12 +1,10 @@
 import React from 'react';
-import ContactForm from '../../Components/ContactForm/ContactForm';
 import './Contact.css';
 
 function Contact() {
     return (
         <div className='contact'>
-            <h1>Contact</h1>            
-            <ContactForm />            
+            <h1>Enjoy the view, and scroll down for my info.</h1>                    
         </div>
     )
 }

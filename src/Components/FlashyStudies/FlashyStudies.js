@@ -1,5 +1,4 @@
 import React from 'react';
-import './FlashyStudies.css';
 import expressIcon from '../../images/express-icon.png';
 import Screenshot from '../../images/flashy-studies-views.png';
 
@@ -37,6 +36,9 @@ function FlashyStudies() {
                     alt='react icon'
                 />
             </section>
+            <a href='https://github.com/jbarnes439/capstone-1-Flashy-Studies-Client.git'>
+                <button className='button-link'>Code</button>
+            </a>
         </div>
     )
 }
