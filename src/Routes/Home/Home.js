@@ -6,7 +6,7 @@ import './Home.css';
 function Home() {
     return (
         <div className='home'>            
-            <h1>Recent Projects</h1>
+            <h2>Recent Projects</h2>
             <ProjectContainer />            
         </div>
     )
