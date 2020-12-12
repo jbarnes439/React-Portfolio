@@ -8,11 +8,16 @@
     background-size: cover;    
 }
 
+img {
+    width: 100%;
+}
+
+/* Project section */
 .project-card {    
     background-color: #fff5ea;
     width: 60%;
     margin: 5vh auto;
-    margin-bottom: 20vh;
+    margin-bottom: 10vh;
     font-size: 2vh;
     border: 1px solid #eee;
     border-radius: 10px;
@@ -22,16 +27,12 @@
 }
 
 .project-card a {
-    color: black;
+    color: #CDD5DF;
     text-decoration: none;
 }
 
 .project-card a:visited {
-    color:#8499B1;
-}
-
-img {
-    width: 100%;
+    color:#5F9B59;
 }
 
 .tech {
@@ -40,12 +41,16 @@ img {
 }
 
 .tech-image {
+    max-width: 50px;
+    max-height: 50px;
     height: 10vh;
     width: 10vw;
 }
 
 .tech-image-express {
     padding-top: 5px;
+    max-width: 125px;
+    max-height: 45px;
     height: 7vh;
     width: 18vw;
 }
@@ -54,6 +59,12 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-top: 15px;
+}
+
+.button-link:hover {
+    background-color: #C6DDBB;
+    transition: all 0.4s ease-in-out;
 }
 
 .button-link {

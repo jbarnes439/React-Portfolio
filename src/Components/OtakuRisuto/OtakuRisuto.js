@@ -7,19 +7,19 @@ function OtakuRisuto() {
 
     return (
         <div className='project-card'>
-            <a 
-                href='https://Otaku-risuto.vercel.app/' 
-                rel='noopener noreferrer' 
+            <a
+                href='https://Otaku-risuto.vercel.app/'
+                rel='noopener noreferrer'
                 target='_blank'>
                 <h4>Otaku Risuto</h4>
             </a>
             <img src={Screenshot} alt='screenshot of the Otaku Risuto app.' />
             <p>
-                Otaku Risuto is an app that allows a user to keep track of their favorite
-                anime titles. Users are able search for and create lists of anime, complete with
-                images and descriptions. Edit and delete lists at will, as well as commenting on and rating
-                other user's lists. Struggling to decide what to watch? Allow us to pick from your list
-                for you with our anime roulette button.
+                Otaku Risuto is an app that allows a user to keep track of their favorite anime titles.
+                Users can search for and create lists of anime, complete with images and descriptions.
+                Edit and delete lists at will, as well as commenting on and rating other user's lists.
+                Struggling to decide what to watch? Allow us to pick from your list for you with our
+                anime roulette button.
             </p>
             <h5>Technologies:</h5>
             <section className='tech'>
@@ -45,15 +45,15 @@ function OtakuRisuto() {
                 />
             </section>
             <section className='link-buttons'>
-                <a 
-                    href='https://Otaku-risuto.vercel.app/' 
-                    rel='noopener noreferrer' 
+                <a
+                    href='https://Otaku-risuto.vercel.app/'
+                    rel='noopener noreferrer'
                     target='_blank'>
                     <button className='button-link'>Live</button>
                 </a>
-                <a 
-                    href='https://github.com/Cap3-Nate-Chad-Brandon-Michael-Josh/OtakuRisuto.git' 
-                    rel='noopener noreferrer' 
+                <a
+                    href='https://github.com/Cap3-Nate-Chad-Brandon-Michael-Josh/OtakuRisuto.git'
+                    rel='noopener noreferrer'
                     target='_blank'>
                     <button className='button-link'>Code</button>
                 </a>

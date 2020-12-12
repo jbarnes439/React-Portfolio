@@ -15,7 +15,7 @@ function FlashyStudies() {
             <img src={Screenshot} alt='screenshot of the Flashy-Studies app.' />
             <p>
                 FlashyStudies is an app that allows users to create and take their
-                flash cards with them. Study like it's the twenty-first century - with
+                flashcards with them. Study like it's the twenty-first century - with
                 your smartphone, not a stack of cards.
             </p>
             <h5>Technologies:</h5>

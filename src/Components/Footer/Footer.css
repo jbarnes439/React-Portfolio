@@ -11,3 +11,13 @@
     height: 50px;
     width: 50px;
 }
+
+.email-link {
+    color: white;
+    text-decoration: none;
+}
+
+.email-link:hover {
+    color: #C6DDBB;    
+    transition: all 0.4s ease-in-out;
+}
