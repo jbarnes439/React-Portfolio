@@ -3,7 +3,7 @@ import './Footer.css';
 
 function Footer() {
     return (
-        <div className='footer'>            
+        <footer className='footer'>            
             <a 
                 href='https://www.linkedin.com/in/josh-barnes-developer/'
                 rel='noopener noreferrer' 
@@ -21,7 +21,7 @@ function Footer() {
                 target='_blank'>
                 <img src='https://img.icons8.com/fluent/48/000000/github.png' alt='github icon'/>
             </a>
-        </div>
+        </footer>
     )
 }
 

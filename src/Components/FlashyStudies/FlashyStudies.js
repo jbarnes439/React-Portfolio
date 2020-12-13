@@ -10,7 +10,7 @@ function FlashyStudies() {
                 href='https://flashy-studies.vercel.app/'
                 rel='noopener noreferrer'
                 target='_blank'>
-                <h4>FlashyStudies</h4>
+                <h3>FlashyStudies</h3>
             </a>
             <img src={Screenshot} alt='screenshot of the Flashy-Studies app.' />
             <p>
@@ -18,7 +18,7 @@ function FlashyStudies() {
                 flashcards with them. Study like it's the twenty-first century - with
                 your smartphone, not a stack of cards.
             </p>
-            <h5>Technologies:</h5>
+            <h4>Technologies:</h4>
             <section className='tech'>
                 <img
                     className='tech-image'
@@ -42,18 +42,18 @@ function FlashyStudies() {
                 />
             </section>
             <section className='link-buttons'>
-                <a
-                    href='https://flashy-studies.vercel.app/'
+                <form
+                    action='https://flashy-studies.vercel.app/'
                     rel='noopener noreferrer'
                     target='_blank'>
                     <button className='button-link'>Live</button>
-                </a>
-                <a
-                    href='https://github.com/jbarnes439/capstone-1-Flashy-Studies-Client.git'
+                </form>
+                <form
+                    action='https://github.com/jbarnes439/capstone-1-Flashy-Studies-Client.git'
                     rel='noopener noreferrer'
                     target='_blank'>
                     <button className='button-link'>Code</button>
-                </a>
+                </form>
             </section>
         </div>
     )

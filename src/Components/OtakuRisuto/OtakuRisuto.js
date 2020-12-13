@@ -11,7 +11,7 @@ function OtakuRisuto() {
                 href='https://Otaku-risuto.vercel.app/'
                 rel='noopener noreferrer'
                 target='_blank'>
-                <h4>Otaku Risuto</h4>
+                <h3>Otaku Risuto</h3>
             </a>
             <img src={Screenshot} alt='screenshot of the Otaku Risuto app.' />
             <p>
@@ -21,7 +21,7 @@ function OtakuRisuto() {
                 Struggling to decide what to watch? Allow us to pick from your list for you with our
                 anime roulette button.
             </p>
-            <h5>Technologies:</h5>
+            <h4>Technologies:</h4>
             <section className='tech'>
                 <img
                     className='tech-image'
@@ -45,18 +45,18 @@ function OtakuRisuto() {
                 />
             </section>
             <section className='link-buttons'>
-                <a
-                    href='https://Otaku-risuto.vercel.app/'
+                <form                    
+                    action='https://Otaku-risuto.vercel.app/'
                     rel='noopener noreferrer'
                     target='_blank'>
-                    <button className='button-link'>Live</button>
-                </a>
-                <a
-                    href='https://github.com/Cap3-Nate-Chad-Brandon-Michael-Josh/OtakuRisuto.git'
+                        <button className='button-link'>Live</button>                    
+                </form>
+                <form
+                    action='https://github.com/Cap3-Nate-Chad-Brandon-Michael-Josh/OtakuRisuto.git'
                     rel='noopener noreferrer'
                     target='_blank'>
-                    <button className='button-link'>Code</button>
-                </a>
+                        <button className='button-link'>Code</button>
+                </form>
             </section>
         </div>
     )

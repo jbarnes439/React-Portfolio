@@ -8,9 +8,9 @@ function Header() {
 
     return (
         <div className='navbar'>
-            <div className='header'>
+            <header className='header'>
                 <h1>Josh Barnes: <span>Full-Stack Developer</span></h1>
-            </div>            
+            </header>            
             <nav>
                 <div className='toggle-button' onClick={() => setMenuState(!menuActive)}>
                     <span className='bar'></span>
