@@ -11,14 +11,15 @@ function Spanglish() {
                 target='_blank'>
                 <h3>Spanglish</h3>
             </a>
+            <h4>Screenshots:</h4>
             <img src={Screenshot} alt='screenshot of the Spanglish app.' />
             <p>
                 Always wanted to hablar espanol? Well, this app will have you speaking
                 Spanglish in no time! I haven't had the time to make it a Rosetta Stone,
                 yet, but I did learn a bit about algorithms in the process. In case you
                 were wondering, the F in algorithms stands for fun! Jokes aside, I did
-                learn a lot making this particular app. Most notably, algorithms are not
-                easy to write, but neither are they impossible to figure out. Also, my
+                learn a lot from making this particular app. Most notably, algorithms are 
+                not easy to write, but neither are they impossible to figure out. Also, my
                 first time using the Cypress framework for testing.
             </p>
             <h4>Technologies:</h4>

@@ -1,6 +1,6 @@
 .header {    
-    color: white;
-    position: relative;    
+    color: #5e6b67;
+    position: relative;      
 }
 
 h1 {  
@@ -11,7 +11,9 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;  
-  color: white;
+  color: #23361B;
+  background-color: white;
+  opacity: 0.5;
 }
 
 .title {
@@ -31,18 +33,18 @@ h1 {
 
 .navbar-links li a {
   text-decoration: none;
-  color: white;
+  color: black;
   padding: 1.45rem 1rem 1rem 1rem;
   display: block;
   font-size: 25px;
 }
 
 .navbar-links li a:visited { 
-  color: #EBFFF9;
+  color: #5e6b67;
 }
 
 .navbar-links li a:hover {
-  color: #f1ddf7;
+  color: #ad8fb6;
   transition: all 0.4s ease-in-out;
 }
 
@@ -60,7 +62,7 @@ h1 {
 .toggle-button .bar {
   height: 3px;
   width: 100%;
-  background-color: white;
+  background-color: #5e6b67;
   border-radius: 10px;    
 }
 

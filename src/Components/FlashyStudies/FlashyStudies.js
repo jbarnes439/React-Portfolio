@@ -12,6 +12,7 @@ function FlashyStudies() {
                 target='_blank'>
                 <h3>FlashyStudies</h3>
             </a>
+            <h4>Screenshots:</h4>
             <img src={Screenshot} alt='screenshot of the Flashy-Studies app.' />
             <p>
                 FlashyStudies is an app that allows users to create and take their

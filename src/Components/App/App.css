@@ -77,7 +77,8 @@ img {
     height: 35px;
 }
 
-.project-card h4 {
+.project-card h3 {
+    color: #3F5F30;
     font-size: 25px;
     margin: 10px;
 }

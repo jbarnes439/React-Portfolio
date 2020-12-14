@@ -13,6 +13,7 @@ function OtakuRisuto() {
                 target='_blank'>
                 <h3>Otaku Risuto</h3>
             </a>
+            <h4>Screenshots:</h4>
             <img src={Screenshot} alt='screenshot of the Otaku Risuto app.' />
             <p>
                 Otaku Risuto is an app that allows a user to keep track of their favorite anime titles.
