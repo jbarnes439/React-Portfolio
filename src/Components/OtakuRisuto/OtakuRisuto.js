@@ -14,7 +14,7 @@ function OtakuRisuto() {
                 <h3>Otaku Risuto</h3>
             </a>
             <h4>Screenshots:</h4>
-            <img src={Screenshot} alt='screenshot of the Otaku Risuto app.' />
+            <img className='screenshots' src={Screenshot} alt='screenshot of the Otaku Risuto app.' />
             <p>
                 Otaku Risuto is an app that allows a user to keep track of their favorite anime titles.
                 Users can search for and create lists of anime, complete with images and descriptions.
@@ -35,7 +35,7 @@ function OtakuRisuto() {
                     alt='node-js icon'
                 />
                 <img
-                    className='tech-image-express'
+                    className='tech-image'
                     src={expressIcon}
                     alt='ExpressJS icon'
                 />

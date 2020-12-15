@@ -13,7 +13,7 @@ function FlashyStudies() {
                 <h3>FlashyStudies</h3>
             </a>
             <h4>Screenshots:</h4>
-            <img src={Screenshot} alt='screenshot of the Flashy-Studies app.' />
+            <img className='screenshots' src={Screenshot} alt='screenshot of the Flashy-Studies app.' />
             <p>
                 FlashyStudies is an app that allows users to create and take their
                 flashcards with them. Study like it's the twenty-first century - with
@@ -32,7 +32,7 @@ function FlashyStudies() {
                     alt='node-js icon'
                 />
                 <img
-                    className='tech-image-express'
+                    className='tech-image'
                     src={expressIcon}
                     alt='ExpressJS icon'
                 />

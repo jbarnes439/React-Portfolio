@@ -8,7 +8,7 @@
     background-size: cover;    
 }
 
-img {
+.screenshots {
     width: 100%;
 }
 
@@ -18,7 +18,7 @@ img {
     width: 60%;
     margin: 5vh auto;
     margin-bottom: 10vh;
-    font-size: 2vh;
+    font-size: 2.5vw;
     border: 1px solid #eee;
     border-radius: 10px;
     box-shadow: 0 2px 3px rgba(204, 204, 204, 0.24);
@@ -37,33 +37,25 @@ img {
 
 .tech {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;           
 }
 
 .tech-image {
-    max-width: 50px;
+    padding: 5px;    
     max-height: 50px;
-    height: 10vh;
-    width: 10vw;
-}
-
-.tech-image-express {
-    padding-top: 5px;
-    max-width: 125px;
-    max-height: 45px;
-    height: 7vh;
-    width: 18vw;
+    height: 50px;    
+    overflow: hidden;
 }
 
 .link-buttons {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-top: 15px;
+    padding-top: 15px;    
 }
 
 .button-link:hover {
-    background-color: #ecdfd0;
+    background-color: #e7dcd0;
     transition: all 0.4s ease-in-out;
 }
 
@@ -83,6 +75,14 @@ img {
     margin: 10px;
 }
 
-@media only screen and (max-width: 450px) {
-        
+@media screen and (max-width: 450px) {
+    .tech-image {
+        height: 25px;
+    }
+
+    .button-link {
+        height: 25px;
+        font-size: 15px;
+    }
 }
+

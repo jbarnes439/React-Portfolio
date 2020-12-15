@@ -12,7 +12,7 @@ function Spanglish() {
                 <h3>Spanglish</h3>
             </a>
             <h4>Screenshots:</h4>
-            <img src={Screenshot} alt='screenshot of the Spanglish app.' />
+            <img className='screenshots' src={Screenshot} alt='screenshot of the Spanglish app.' />
             <p>
                 Always wanted to hablar espanol? Well, this app will have you speaking
                 Spanglish in no time! I haven't had the time to make it a Rosetta Stone,
@@ -35,7 +35,7 @@ function Spanglish() {
                     alt='node-js icon'
                 />
                 <img
-                    className='tech-image-express'
+                    className='tech-image'
                     src={expressIcon}
                     alt='ExpressJS icon'
                 />
