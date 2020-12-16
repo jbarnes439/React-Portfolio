@@ -50,7 +50,7 @@ h1 {
 
 .toggle-button {
   position: absolute;
-  top: 45px;
+  top: 42px;
   right: 1rem;
   display: none;
   flex-direction: column;
