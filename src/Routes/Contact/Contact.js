@@ -4,7 +4,7 @@ import './Contact.css';
 function Contact() {
     return (
         <div className='contact'>
-            <h1>Enjoy the view, and scroll down for my info.</h1>                    
+            <h2>Enjoy the view, and scroll down for my info.</h2>                    
         </div>
     )
 }
