@@ -23,12 +23,12 @@ function FlashyStudies() {
             <section className='tech'>
                 <img
                     className='tech-image'
-                    src="https://img.icons8.com/color/48/000000/postgreesql.png"
+                    src='https://img.icons8.com/color/48/000000/postgreesql.png'
                     alt='PostgreSQL logo'
                 />
                 <img
                     className='tech-image'
-                    src="https://img.icons8.com/color/48/000000/nodejs.png"
+                    src='https://img.icons8.com/color/48/000000/nodejs.png'
                     alt='node-js icon'
                 />
                 <img
@@ -38,7 +38,7 @@ function FlashyStudies() {
                 />
                 <img
                     className='tech-image'
-                    src="https://img.icons8.com/plasticine/100/000000/react.png"
+                    src='https://img.icons8.com/plasticine/100/000000/react.png'
                     alt='react icon'
                 />
             </section>

@@ -17,7 +17,7 @@ function Header() {
                     <span className='bar'></span>
                     <span className='bar'></span>
                 </div>
-                <div className={`navbar-links ${menuActive ? "active" : ""}`}>
+                <div className={`navbar-links ${menuActive ? 'active' : ''}`}>
                     <ul>
                         <li><Link to={'/'}>Home</Link></li>
                         <li><Link to={'/About'}>About</Link></li>
