@@ -1,6 +1,7 @@
 .header {    
     color: #5e6b67;
-    position: relative;      
+    position: relative;
+    animation: moveInLeft 1.5s ease-out;      
 }
 
 h1 {  
@@ -14,6 +15,8 @@ h1 {
   color: #23361B;
   background-color: white;
   opacity: 0.5;
+
+  backface-visibility: hidden;
 }
 
 .title {
@@ -37,6 +40,7 @@ h1 {
   padding: 1.45rem 1rem 1rem 1rem;
   display: block;
   font-size: 25px;
+  animation: moveInRight 1.5s ease-out;
 }
 
 .navbar-links li a:visited { 
@@ -100,9 +104,43 @@ h1 {
 
     .navbar-links li a {
       padding: .5rem 1rem;
+      animation: none;
     }
 
     .navbar-links.active {
       display:flex;
     }
+}
+
+/* animations */
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  80% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  80% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
