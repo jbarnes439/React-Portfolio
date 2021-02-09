@@ -1,4 +1,5 @@
-* {
+html {
+    /* trying to stop visual glitch of background picture */
     backface-visibility: hidden;
 }
 
@@ -12,9 +13,11 @@
     background-size: cover;    
 }
 
-.screenshots {
-    width: 100%;
+h2 {
+    font-size: 3.5rem;    
 }
+
+
 
 /* Project section */
 .project-card {    
@@ -22,10 +25,10 @@
     width: 60%;
     margin: 5vh auto;
     margin-bottom: 10vh;
-    font-size: 2.5vw;
+    font-size: 1.2rem;
     border: 1px solid #eee;
-    border-radius: 10px;
-    box-shadow: 0 2px 3px rgba(204, 204, 204, 0.24);
+    border-radius: 3px;
+    box-shadow: 0 15px 30px rgba(8, 5, 4, 0.8);
     padding: 16px;
     text-align: center;
 }
@@ -33,10 +36,15 @@
 .project-card a {
     color: #CDD5DF;
     text-decoration: none;
+    transition: all 0.4s ease-in-out;
 }
 
 .project-card a:visited {
     color:#5F9B59;
+}
+
+.screenshots {
+    width: 100%;
 }
 
 .tech {
@@ -68,6 +76,7 @@
 .button-link:active {
     transform: translateY(-1px);    
     box-shadow: 0 5px 5px rgba(0,0,0,.5);
+    transition: 0.2s;
     outline: none;
 }
 
@@ -85,8 +94,17 @@
 
 .project-card h3 {
     color: #3F5F30;
-    font-size: 4vw;
+    font-size: 2.2rem;
     margin: 10px;
+}
+
+.project-card h3:hover {
+    transform: skewX(15deg) scale(1.1);
+}
+
+.project-card h4 {
+    font-size: 1.5rem;
+    margin: 0;
 }
 
 @media screen and (max-width: 450px) {

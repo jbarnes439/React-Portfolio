@@ -6,11 +6,18 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    transition: all .5s;
 }
 
 .footer img {
     height: 50px;
     width: 50px;
+}
+
+.footer__icon:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0,0,0,.5);    
 }
 
 .email-link {

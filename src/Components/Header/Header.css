@@ -6,6 +6,7 @@
 
 h1 {  
   padding: 10px 10px 10px 15px;
+  font-size: 2.5rem;
 }
 
 .navbar {
@@ -54,13 +55,14 @@ h1 {
 
 .toggle-button {
   position: absolute;
-  top: 42px;
+  top: 3.4rem;
   right: 1rem;
   display: none;
   flex-direction: column;
   justify-content: space-between;
   width: 30px;
   height: 21px; 
+  cursor: pointer;
 }
 
 .toggle-button .bar {
@@ -70,7 +72,7 @@ h1 {
   border-radius: 10px;    
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 880px) {
     /* Extra padding to the right to prevent overlap
    of absolute positioned hamburger menu */
   
